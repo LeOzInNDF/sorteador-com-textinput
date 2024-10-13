@@ -24,12 +24,34 @@ const estilo = StyleSheet.create({
     textAlign: 'center'
 
   },
+  linhaInput: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  inputFocus: {
+    borderWidth: 1,
+    borderColor: '#1f4f66',
+    borderRadius: 3,
+    width: 100,
+    paddingHorizontal: 5,
+    marginLeft: 10,
+  },
+  inputNormal: {
+    borderWidth: 1,
+    borderColor: '#d5d5d5',
+    borderRadius: 3,
+    width: 100,
+    paddingHorizontal: 5,
+    marginLeft: 10,
+  },
   numero: {
     fontSize: 80,
     color: '#fff'
   },
   boxBotao: {
-    width: 200
+    width: 200,
+    marginBottom: 50
   },
   botao: {
     backgroundColor: '#1f4f66'
